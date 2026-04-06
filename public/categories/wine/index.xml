@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wine on SuperList.us</title>
+    <link>http://localhost:1313/categories/wine/</link>
+    <description>Recent content in Wine on SuperList.us</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/wine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Peculiar Winery</title>
+      <link>http://localhost:1313/listings/peculiar-winery/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/listings/peculiar-winery/</guid>
+      <description>&lt;p&gt;A family-owned winery in Peculiar, Missouri, run by a guy who went from professional wrestling to television to wine. Handcrafted Missouri wines in a town whose official slogan is &amp;ldquo;Where the Odds Are With You.&amp;rdquo; The tasting room is open on weekends and the name has never once needed explaining.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

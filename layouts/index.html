@@ -1,0 +1,65 @@
+{{ define "main" }}
+
+<section class="random-section">
+  <p class="intro-text">
+    There are <em>{{ len (where .Site.RegularPages "Section" "listings") }} listings</em> in the SuperList.<br>
+    You could browse them like a normal person.<br>
+    Or you could press the button and let fate decide.
+  </p>
+
+  <a href="#" id="random-btn" class="big-button" onclick="goRandom(event)">
+    TAKE ME<br>SOMEWHERE
+  </a>
+
+  <span class="button-subtext">[ Press the button. Trust the process. ]</span>
+
+  <div class="stats-bar">
+    <div class="stat-item">
+      <span class="stat-num">{{ len (where .Site.RegularPages "Section" "listings") }}</span>
+      <span class="stat-label">Listings</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">{{ len .Site.Taxonomies.categories }}</span>
+      <span class="stat-label">Categories</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">∞</span>
+      <span class="stat-label">Possibilities</span>
+    </div>
+  </div>
+
+  <a href="/listings/" class="browse-link">...or browse all listings like a coward →</a>
+</section>
+
+<section class="cta-section">
+  <h3>Get Your Business on the SuperList</h3>
+  <div class="price">$3.57 / year</div>
+  <div class="price-sub">Yes, really. Three dollars and fifty-seven cents.</div>
+  <a href="/get-listed/" class="cta-btn">Get Listed</a>
+  <div class="perks">
+    <span>✓</span> Full business profile &nbsp; <span>✓</span> Do-follow backlink &nbsp; <span>✓</span> Random button eligibility<br>
+    <span>✓</span> Bragging rights &nbsp; <span>✓</span> Eternal glory (or at least 12 months of it)
+  </div>
+</section>
+
+<script>
+  // Load the JSON index and redirect to a random listing
+  let listings = [];
+
+  fetch('/index.json')
+    .then(r => r.json())
+    .then(data => { listings = data; })
+    .catch(err => console.error('Could not load listings index:', err));
+
+  function goRandom(e) {
+    e.preventDefault();
+    if (listings.length === 0) {
+      alert('No listings loaded yet! Try again in a second.');
+      return;
+    }
+    const random = listings[Math.floor(Math.random() * listings.length)];
+    window.location.href = random.url;
+  }
+</script>
+
+{{ end }}

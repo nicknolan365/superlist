@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Family on SuperList.us</title>
+    <link>http://localhost:1313/categories/family/</link>
+    <description>Recent content in Family on SuperList.us</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/family/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Holiday World &amp; Splashin&#39; Safari</title>
+      <link>http://localhost:1313/listings/holiday-world/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/listings/holiday-world/</guid>
+      <description>&lt;p&gt;A full-sized theme park in Santa Claus, Indiana. Roller coasters, water slides, and free unlimited soft drinks — which is a genuinely aggressive perk. The park is themed around holidays: Christmas, Halloween, Thanksgiving, and the 4th of July. It&amp;rsquo;s been open since 1946, making it one of the oldest theme parks in the country.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Liepold Farms</title>
+      <link>http://localhost:1313/listings/liepold-farms/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/listings/liepold-farms/</guid>
+      <description>&lt;p&gt;A family farm in Boring, Oregon, that&amp;rsquo;s been a fall tradition for generations. Pumpkin patches, corn mazes, hayrides, apple slingshots, and a children&amp;rsquo;s pavilion. Spring and summer bring berries. Everything about this place is wholesome and the address is hilarious.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<div style="text-align:center; margin-bottom:30px;">
+  <h2 style="font-family:'Press Start 2P',monospace; font-size:clamp(0.8rem,2.5vw,1.2rem); color:#ffcc00;">
+    The Full SuperList
+  </h2>
+  <p style="font-family:'VT323',monospace; font-size:1.2rem; color:#888; margin-top:8px;">
+    Every single listing. Alphabetically. Like a phone book.
+  </p>
+</div>
+
+<ul class="all-listings">
+  {{ range (where .Site.RegularPages "Section" "listings").ByTitle }}
+  <li>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ with .Params.categories }}
+      <span class="cat-label">[ {{ delimit . ", " }} ]</span>
+    {{ end }}
+  </li>
+  {{ end }}
+</ul>
+
+<div style="text-align:center; margin-top:30px;">
+  <a href="/" class="browse-link">← Back to the button</a>
+</div>
+
+{{ end }}

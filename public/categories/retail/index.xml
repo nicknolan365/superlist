@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Retail on SuperList.us</title>
+    <link>http://localhost:1313/categories/retail/</link>
+    <description>Recent content in Retail on SuperList.us</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/retail/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pete &amp; Jake&#39;s Hot Rod Parts</title>
+      <link>http://localhost:1313/listings/pete-and-jakes-hot-rod-parts/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/listings/pete-and-jakes-hot-rod-parts/</guid>
+      <description>&lt;p&gt;One of the most respected names in the hot rod world, operating out of Peculiar, Missouri since 1974. Born from a friendship forged while building two custom rides, Pete and Jake turned their passion into a parts and service empire. Car guys nationwide know this name. The Peculiar address just adds character.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Peculiar Games &amp; Hobbies</title>
+      <link>http://localhost:1313/listings/peculiar-games-and-hobbies/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/listings/peculiar-games-and-hobbies/</guid>
+      <description>&lt;p&gt;Floor-to-ceiling shelves of board games, Warhammer 40K, Magic The Gathering, and more in Peculiar, Missouri. They have a game room where people drive from as far as Joplin for tournaments. The owners are famously friendly and will absolutely convince you to buy one more game than you planned on.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Carriage House Furnishings</title>
+      <link>http://localhost:1313/listings/carriage-house-furnishings/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/listings/carriage-house-furnishings/</guid>
+      <description>&lt;p&gt;Handcrafted hardwood furniture, rockers, hope chests, and rocking horses in a showroom that was once a real carriage restoration shop. Locally made in Lancaster County. The showroom still has historical items from the stagecoach era on display. Located in Intercourse, because of course it is.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Old Country Store</title>
+      <link>http://localhost:1313/listings/old-country-store-intercourse/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/listings/old-country-store-intercourse/</guid>
+      <description>&lt;p&gt;A landmark shop in Intercourse, PA, selling handmade Amish quilts, homemade jams, chow chow, Amish peanut butter mixed with marshmallow, and dog treats. One of those places where you walk in for one thing and leave with a bag full of stuff you didn&amp;rsquo;t know you needed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Donkey Balls Original Factory &amp; Store</title>
+      <link>http://localhost:1313/listings/donkey-balls-chocolate/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/listings/donkey-balls-chocolate/</guid>
+      <description>&lt;p&gt;A chocolate company on the Big Island of Hawaii that sells chocolate-covered macadamia nuts called, yes, Donkey Balls. The &amp;ldquo;Dirty Balls&amp;rdquo; variety is coated in cocoa powder. The branding is ridiculous on purpose and it has worked spectacularly. Free factory tours available.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>W.L. Zimmerman &amp; Sons Hardware</title>
+      <link>http://localhost:1313/listings/wl-zimmerman-hardware/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/listings/wl-zimmerman-hardware/</guid>
+      <description>&lt;p&gt;Serving the Intercourse community since 1909. Hardware, housewares, hunting and fishing licenses, propane, heating oil, UPS shipping, notarial services, and money orders. If you need it, Zimmerman&amp;rsquo;s probably has it. Your great-grandparents shopped here, and they turned out fine.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardware on SuperList.us</title>
+    <link>http://localhost:1313/categories/hardware/</link>
+    <description>Recent content in Hardware on SuperList.us</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>W.L. Zimmerman &amp; Sons Hardware</title>
+      <link>http://localhost:1313/listings/wl-zimmerman-hardware/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/listings/wl-zimmerman-hardware/</guid>
+      <description>&lt;p&gt;Serving the Intercourse community since 1909. Hardware, housewares, hunting and fishing licenses, propane, heating oil, UPS shipping, notarial services, and money orders. If you need it, Zimmerman&amp;rsquo;s probably has it. Your great-grandparents shopped here, and they turned out fine.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

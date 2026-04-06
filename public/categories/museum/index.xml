@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Museum on SuperList.us</title>
+    <link>http://localhost:1313/categories/museum/</link>
+    <description>Recent content in Museum on SuperList.us</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/museum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>North American Bigfoot Center</title>
+      <link>http://localhost:1313/listings/north-american-bigfoot-center/</link>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/listings/north-american-bigfoot-center/</guid>
+      <description>&lt;p&gt;A museum in Boring, Oregon dedicated entirely to Bigfoot. Examine mysterious footprint casts, watch grainy footage of alleged sightings, and browse the merch shop. Whether you&amp;rsquo;re a true believer or a total skeptic, it&amp;rsquo;s one of the least boring things in Boring.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

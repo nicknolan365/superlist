@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nightlife on SuperList.us</title>
+    <link>http://localhost:1313/categories/nightlife/</link>
+    <description>Recent content in Nightlife on SuperList.us</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/nightlife/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Not So Boring Bar &amp; Grill</title>
+      <link>http://localhost:1313/listings/not-so-boring-bar-and-grill/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/listings/not-so-boring-bar-and-grill/</guid>
+      <description>&lt;p&gt;A bar in Boring, Oregon, that decided to address the elephant in the room with its name. Live music, trivia nights, and a menu that proves small-town bars can do more than frozen mozzarella sticks. The name does the marketing for them.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

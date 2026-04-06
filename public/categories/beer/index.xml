@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beer on SuperList.us</title>
+    <link>http://localhost:1313/categories/beer/</link>
+    <description>Recent content in Beer on SuperList.us</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/beer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boring Brewing Company</title>
+      <link>http://localhost:1313/listings/boring-brewing-company/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/listings/boring-brewing-company/</guid>
+      <description>&lt;p&gt;Craft beer from Boring, Oregon. Every label writes itself. The town&amp;rsquo;s name is the best marketing department a brewery could ask for. Local, small-batch, and genuinely good — which is, frankly, a little on-the-nose for a town called Boring.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

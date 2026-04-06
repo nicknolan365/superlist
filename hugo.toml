@@ -1,0 +1,14 @@
+baseURL = 'https://superlist.us/'
+languageCode = 'en-us'
+title = 'SuperList.us'
+summaryLength = 30
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[params]
+  tagline = "The Internet's Most Random Directory"
+  description = "You never know where you'll end up. That's the point."
+
+[taxonomies]
+  category = "categories"

@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+<div class="listing-card">
+  <h2>{{ .Title }}</h2>
+  {{ with .Params.categories }}
+    <div class="listing-category">{{ delimit . " · " }}</div>
+  {{ end }}
+  <div class="listing-desc">
+    {{ .Content }}
+  </div>
+  {{ with .Params.website }}
+    <div class="listing-url">
+      🔗 <a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ . }}</a>
+    </div>
+  {{ end }}
+  {{ with .Params.location }}
+    <div style="margin-top:10px; font-family:'VT323',monospace; color:#999; font-size:1.1rem;">
+      📍 {{ . }}
+    </div>
+  {{ end }}
+  {{ with .Params.phone }}
+    <div style="margin-top:6px; font-family:'VT323',monospace; color:#999; font-size:1.1rem;">
+      📞 {{ . }}
+    </div>
+  {{ end }}
+</div>
+
+<div class="listing-nav">
+  <a href="#" onclick="goRandom(event)">🎲 ANOTHER RANDOM</a>
+  <a href="/" class="secondary">← BACK HOME</a>
+  <a href="/listings/" class="secondary">ALL LISTINGS</a>
+</div>
+
+<script>
+  let listings = [];
+  fetch('/index.json')
+    .then(r => r.json())
+    .then(data => { listings = data; })
+    .catch(err => console.error('Could not load listings index:', err));
+
+  function goRandom(e) {
+    e.preventDefault();
+    if (listings.length === 0) {
+      alert('No listings loaded yet!');
+      return;
+    }
+    const random = listings[Math.floor(Math.random() * listings.length)];
+    window.location.href = random.url;
+  }
+</script>
+
+{{ end }}

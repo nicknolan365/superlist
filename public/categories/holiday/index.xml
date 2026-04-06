@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Holiday on SuperList.us</title>
+    <link>http://localhost:1313/categories/holiday/</link>
+    <description>Recent content in Holiday on SuperList.us</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/holiday/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Santa Claus Post Office</title>
+      <link>http://localhost:1313/listings/santa-claus-indiana-post-office/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/listings/santa-claus-indiana-post-office/</guid>
+      <description>&lt;p&gt;The post office in Santa Claus, Indiana, gets absolutely slammed every December with people mailing Christmas cards just so they get the &amp;ldquo;Santa Claus, IN&amp;rdquo; postmark. The town is also home to Holiday World theme park. Yes, the entire town&amp;rsquo;s personality is Christmas. Year-round.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

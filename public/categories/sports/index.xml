@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sports on SuperList.us</title>
+    <link>http://localhost:1313/categories/sports/</link>
+    <description>Recent content in Sports on SuperList.us</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/sports/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mountain View Golf Club</title>
+      <link>http://localhost:1313/listings/mountain-view-golf-club/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/listings/mountain-view-golf-club/</guid>
+      <description>&lt;p&gt;A public golf course in Boring, Oregon with views of Mount Hood. Enough challenge for experienced players, approachable for newcomers. The Leaderboard Restaurant &amp;amp; Bar is on-site for post-round beverages. Telling people you golf in Boring is a conversation starter.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

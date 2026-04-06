@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Restaurant on SuperList.us</title>
+    <link>http://localhost:1313/categories/restaurant/</link>
+    <description>Recent content in Restaurant on SuperList.us</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/restaurant/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sam &amp; Ella&#39;s Chicken Palace</title>
+      <link>http://localhost:1313/listings/sam-and-ellas-chicken-palace/</link>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/listings/sam-and-ellas-chicken-palace/</guid>
+      <description>&lt;p&gt;Multiple restaurants across the US have independently decided that naming a chicken restaurant after a food-borne illness is a power move. Say &amp;ldquo;Sam and Ella&amp;rsquo;s&amp;rdquo; out loud. Now say it faster. The food has good reviews, despite the name doing absolutely everything it can to undermine consumer confidence.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mountain View Golf Club | SuperList.us</title>
+  <meta name="description" content="You never know where you&#39;ll end up. That&#39;s the point.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <style>
+     
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background-color: #1a0a2e;
+      background-image:
+        radial-gradient(circle at 20% 50%, rgba(255, 0, 128, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(0, 255, 255, 0.06) 0%, transparent 50%),
+        url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      color: #e0e0e0;
+      font-family: 'Comic Neue', cursive;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+     
+    .marquee-bar {
+      background: linear-gradient(90deg, #ff0080, #ff6600, #ffcc00, #00ff66, #00ccff, #ff0080);
+      background-size: 300% 100%;
+      animation: rainbow-slide 4s linear infinite;
+      padding: 6px 0;
+      overflow: hidden;
+      white-space: nowrap;
+      font-family: 'VT323', monospace;
+      font-size: 16px;
+      color: #000;
+      letter-spacing: 1px;
+    }
+
+    .marquee-bar .marquee-inner {
+      display: inline-block;
+      animation: marquee 20s linear infinite;
+    }
+
+    @keyframes marquee {
+      0% { transform: translateX(100vw); }
+      100% { transform: translateX(-100%); }
+    }
+
+    @keyframes rainbow-slide {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 300% 50%; }
+    }
+
+     
+    .site-header {
+      text-align: center;
+      padding: 20px 20px 10px;
+    }
+
+    .site-header h1 {
+      font-family: 'Press Start 2P', monospace;
+      font-size: clamp(1.4rem, 5vw, 2.8rem);
+      background: linear-gradient(180deg, #ffcc00, #ff6600);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-shadow: none;
+      filter: drop-shadow(2px 2px 0 rgba(255, 0, 128, 0.5));
+      letter-spacing: 2px;
+    }
+
+    .site-header .tagline {
+      font-family: 'VT323', monospace;
+      font-size: 1.3rem;
+      color: #00ff99;
+      margin-top: 8px;
+      text-shadow: 0 0 10px rgba(0, 255, 153, 0.4);
+    }
+
+     
+    .hit-counter {
+      display: inline-block;
+      margin-top: 14px;
+      background: #000;
+      border: 2px inset #666;
+      padding: 4px 14px;
+      font-family: 'VT323', monospace;
+      font-size: 1.1rem;
+      color: #00ff00;
+      letter-spacing: 2px;
+    }
+
+     
+    .main-content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+     
+    .random-section {
+      text-align: center;
+      padding: 40px 20px 50px;
+    }
+
+    .random-section .intro-text {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .random-section .intro-text em {
+      color: #ff0080;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .big-button {
+      display: inline-block;
+      padding: 24px 60px;
+      font-family: 'Press Start 2P', monospace;
+      font-size: clamp(1rem, 3vw, 1.6rem);
+      color: #000;
+      background: linear-gradient(180deg, #ffee00, #ffaa00, #ff6600);
+      border: 4px outset #ffcc00;
+      border-radius: 0;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      box-shadow:
+        0 6px 0 #cc5500,
+        0 8px 20px rgba(255, 102, 0, 0.4),
+        0 0 60px rgba(255, 102, 0, 0.2);
+      transition: all 0.1s;
+      animation: button-glow 2s ease-in-out infinite;
+      position: relative;
+    }
+
+    .big-button:hover {
+      transform: translateY(-2px);
+      box-shadow:
+        0 8px 0 #cc5500,
+        0 10px 30px rgba(255, 102, 0, 0.6),
+        0 0 80px rgba(255, 102, 0, 0.3);
+    }
+
+    .big-button:active {
+      transform: translateY(4px);
+      border-style: inset;
+      box-shadow:
+        0 2px 0 #cc5500,
+        0 4px 10px rgba(255, 102, 0, 0.3);
+    }
+
+    @keyframes button-glow {
+      0%, 100% { box-shadow: 0 6px 0 #cc5500, 0 8px 20px rgba(255, 102, 0, 0.4), 0 0 60px rgba(255, 102, 0, 0.2); }
+      50% { box-shadow: 0 6px 0 #cc5500, 0 8px 20px rgba(255, 102, 0, 0.6), 0 0 100px rgba(255, 102, 0, 0.35); }
+    }
+
+    .button-subtext {
+      display: block;
+      margin-top: 16px;
+      font-family: 'VT323', monospace;
+      font-size: 1rem;
+      color: #888;
+      animation: blink-slow 2s step-end infinite;
+    }
+
+    @keyframes blink-slow {
+      0%, 80% { opacity: 1; }
+      40%, 60% { opacity: 0; }
+    }
+
+     
+    .stats-bar {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+      padding: 16px;
+      border-top: 1px dashed #333;
+      border-bottom: 1px dashed #333;
+    }
+
+    .stat-item {
+      text-align: center;
+      font-family: 'VT323', monospace;
+    }
+
+    .stat-item .stat-num {
+      display: block;
+      font-size: 2rem;
+      color: #00ccff;
+      text-shadow: 0 0 10px rgba(0, 204, 255, 0.4);
+    }
+
+    .stat-item .stat-label {
+      font-size: 0.9rem;
+      color: #777;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+     
+    .site-footer {
+      text-align: center;
+      padding: 30px 20px;
+      font-family: 'VT323', monospace;
+      color: #555;
+      font-size: 1rem;
+      border-top: 1px solid #222;
+      margin-top: 40px;
+    }
+
+    .site-footer a {
+      color: #ff0080;
+      text-decoration: none;
+    }
+
+    .site-footer .badges {
+      margin-top: 12px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .site-footer .badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border: 1px solid #444;
+      font-size: 0.85rem;
+      color: #999;
+      background: #111;
+    }
+
+     
+    .under-construction {
+      text-align: center;
+      margin-top: 20px;
+      font-family: 'VT323', monospace;
+      font-size: 1.1rem;
+      color: #ffcc00;
+      animation: blink-slow 1.5s step-end infinite;
+    }
+
+     
+    .browse-link {
+      display: inline-block;
+      margin-top: 24px;
+      font-family: 'VT323', monospace;
+      font-size: 1.2rem;
+      color: #00ccff;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    .browse-link:hover {
+      color: #ff0080;
+    }
+
+     
+    .listing-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 2px solid #333;
+      border-radius: 0;
+      padding: 30px;
+      margin: 20px auto;
+      max-width: 700px;
+    }
+
+    .listing-card h2 {
+      font-family: 'Press Start 2P', monospace;
+      font-size: clamp(0.9rem, 2.5vw, 1.3rem);
+      color: #ffcc00;
+      margin-bottom: 6px;
+    }
+
+    .listing-card .listing-category {
+      font-family: 'VT323', monospace;
+      font-size: 1rem;
+      color: #ff0080;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .listing-card .listing-desc {
+      font-size: 1.1rem;
+      color: #ccc;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+
+    .listing-card .listing-url a {
+      font-family: 'VT323', monospace;
+      font-size: 1.1rem;
+      color: #00ccff;
+      text-decoration: underline;
+      word-break: break-all;
+    }
+
+    .listing-card .listing-url a:hover {
+      color: #00ff99;
+    }
+
+    .listing-nav {
+      text-align: center;
+      margin-top: 30px;
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .listing-nav a {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.7rem;
+      color: #000;
+      background: linear-gradient(180deg, #ffee00, #ff6600);
+      border: 3px outset #ffcc00;
+      padding: 12px 24px;
+      text-decoration: none;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    .listing-nav a:active {
+      border-style: inset;
+    }
+
+    .listing-nav a.secondary {
+      background: linear-gradient(180deg, #555, #333);
+      border-color: #666;
+      color: #ddd;
+    }
+
+     
+    .all-listings {
+      list-style: none;
+      padding: 0;
+    }
+
+    .all-listings li {
+      border-bottom: 1px dashed #333;
+      padding: 12px 0;
+    }
+
+    .all-listings li a {
+      font-family: 'VT323', monospace;
+      font-size: 1.3rem;
+      color: #00ccff;
+      text-decoration: none;
+    }
+
+    .all-listings li a:hover {
+      color: #ffcc00;
+      text-decoration: underline;
+    }
+
+    .all-listings li .cat-label {
+      font-family: 'VT323', monospace;
+      font-size: 0.9rem;
+      color: #ff0080;
+      margin-left: 10px;
+    }
+
+     
+    .cta-section {
+      text-align: center;
+      margin-top: 40px;
+      padding: 30px 20px;
+      border: 2px dashed #ff0080;
+      background: rgba(255, 0, 128, 0.04);
+    }
+
+    .cta-section h3 {
+      font-family: 'Press Start 2P', monospace;
+      font-size: clamp(0.7rem, 2vw, 1rem);
+      color: #ffcc00;
+      margin-bottom: 10px;
+    }
+
+    .cta-section .price {
+      font-family: 'VT323', monospace;
+      font-size: 2.4rem;
+      color: #00ff99;
+      text-shadow: 0 0 10px rgba(0, 255, 153, 0.4);
+      margin: 10px 0;
+    }
+
+    .cta-section .price-sub {
+      font-family: 'VT323', monospace;
+      font-size: 1.1rem;
+      color: #888;
+      margin-bottom: 16px;
+    }
+
+    .cta-section .cta-btn {
+      display: inline-block;
+      padding: 14px 36px;
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.75rem;
+      color: #000;
+      background: linear-gradient(180deg, #00ffcc, #00aa88);
+      border: 3px outset #00ffcc;
+      text-decoration: none;
+      text-transform: uppercase;
+      cursor: pointer;
+      letter-spacing: 1px;
+    }
+
+    .cta-section .cta-btn:active { border-style: inset; }
+
+    .cta-section .perks {
+      font-family: 'VT323', monospace;
+      font-size: 1.1rem;
+      color: #aaa;
+      margin-top: 16px;
+      line-height: 1.8;
+    }
+
+    .cta-section .perks span {
+      color: #00ccff;
+    }
+
+     
+    .get-listed-page {
+      max-width: 650px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .get-listed-page h2 {
+      font-family: 'Press Start 2P', monospace;
+      font-size: clamp(0.9rem, 2.5vw, 1.3rem);
+      color: #ffcc00;
+      margin-bottom: 20px;
+    }
+
+    .get-listed-page .big-price {
+      font-family: 'Press Start 2P', monospace;
+      font-size: clamp(2rem, 6vw, 3.5rem);
+      color: #00ff99;
+      text-shadow: 0 0 20px rgba(0, 255, 153, 0.4);
+      margin: 20px 0 6px;
+    }
+
+    .get-listed-page .price-period {
+      font-family: 'VT323', monospace;
+      font-size: 1.4rem;
+      color: #888;
+      margin-bottom: 30px;
+    }
+
+    .get-listed-page .feature-list {
+      text-align: left;
+      display: inline-block;
+      font-family: 'VT323', monospace;
+      font-size: 1.3rem;
+      color: #ccc;
+      line-height: 2.2;
+    }
+
+    .get-listed-page .feature-list .check {
+      color: #00ff99;
+      margin-right: 8px;
+    }
+
+     
+    @media (max-width: 600px) {
+      .big-button {
+        padding: 20px 36px;
+        font-size: 0.9rem;
+      }
+      .stats-bar {
+        gap: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="marquee-bar">
+    <span class="marquee-inner">
+      ★ WELCOME TO SUPERLIST.US ★ THE INTERNET'S #1 MOST RANDOM DIRECTORY ★ OVER 30 LISTINGS AND COUNTING ★ GET LISTED FOR JUST $3.57/YEAR ★ YOU WILL NOT BELIEVE WHAT'S IN HERE ★ COMPLETE PROFILE + DO-FOLLOW BACKLINK ★ NO AI WAS HARMED IN THE MAKING OF THIS SITE (MAYBE A LITTLE) ★ CLICK THE BUTTON. YOU KNOW YOU WANT TO. ★
+    </span>
+  </div>
+
+  <header class="site-header">
+    <h1><a href="/" style="text-decoration:none;-webkit-text-fill-color:transparent;background:linear-gradient(180deg,#ffcc00,#ff6600);-webkit-background-clip:text;background-clip:text;">SuperList.us</a></h1>
+    <div class="tagline">The Internet&#39;s Most Random Directory</div>
+    <div class="hit-counter">VISITORS: <span id="visitor-count">1775518923</span></div>
+  </header>
+
+  <main class="main-content">
+    
+
+<div class="listing-card">
+  <h2>Mountain View Golf Club</h2>
+  
+    <div class="listing-category">Sports · Recreation</div>
+  
+  <div class="listing-desc">
+    <p>A public golf course in Boring, Oregon with views of Mount Hood. Enough challenge for experienced players, approachable for newcomers. The Leaderboard Restaurant &amp; Bar is on-site for post-round beverages. Telling people you golf in Boring is a conversation starter.</p>
+
+  </div>
+  
+  
+    <div style="margin-top:10px; font-family:'VT323',monospace; color:#999; font-size:1.1rem;">
+      📍 Boring, OR
+    </div>
+  
+  
+</div>
+
+<div class="listing-nav">
+  <a href="#" onclick="goRandom(event)">🎲 ANOTHER RANDOM</a>
+  <a href="/" class="secondary">← BACK HOME</a>
+  <a href="/listings/" class="secondary">ALL LISTINGS</a>
+</div>
+
+<script>
+  let listings = [];
+  fetch('/index.json')
+    .then(r => r.json())
+    .then(data => { listings = data; })
+    .catch(err => console.error('Could not load listings index:', err));
+
+  function goRandom(e) {
+    e.preventDefault();
+    if (listings.length === 0) {
+      alert('No listings loaded yet!');
+      return;
+    }
+    const random = listings[Math.floor(Math.random() * listings.length)];
+    window.location.href = random.url;
+  }
+</script>
+
+
+  </main>
+
+  <footer class="site-footer">
+    <div>© 2026 SuperList.us — A website that exists on the internet.</div>
+    <div style="margin-top:6px;">
+      <a href="/listings/">Browse All Listings</a> ·
+      <a href="/get-listed/">Get Listed — $3.57/yr</a>
+    </div>
+    <div class="badges">
+      <span class="badge">HTML 5.0</span>
+      <span class="badge">Y2K Compliant</span>
+      <span class="badge">Best viewed at any resolution</span>
+      <span class="badge">Powered by vibes</span>
+    </div>
+    <div class="under-construction">🚧 ALWAYS UNDER CONSTRUCTION 🚧</div>
+  </footer>
+
+  <script>
+    
+    const base = 48213;
+    const daysSinceEpoch = Math.floor(Date.now() / 86400000);
+    const fakeVisitors = base + (daysSinceEpoch * 7) + Math.floor(Math.random() * 5);
+    const el = document.getElementById('visitor-count');
+    if (el) el.textContent = fakeVisitors.toLocaleString();
+  </script>
+
+</body>
+</html>

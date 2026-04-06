@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Furniture on SuperList.us</title>
+    <link>http://localhost:1313/categories/furniture/</link>
+    <description>Recent content in Furniture on SuperList.us</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/furniture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Carriage House Furnishings</title>
+      <link>http://localhost:1313/listings/carriage-house-furnishings/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/listings/carriage-house-furnishings/</guid>
+      <description>&lt;p&gt;Handcrafted hardwood furniture, rockers, hope chests, and rocking horses in a showroom that was once a real carriage restoration shop. Locally made in Lancaster County. The showroom still has historical items from the stagecoach era on display. Located in Intercourse, because of course it is.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
